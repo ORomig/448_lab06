@@ -10,23 +10,20 @@
 
 <body>
   <h1>Multiplication Table!</h1>
+  <p>Multiplication Table for 100x100</p>
   <?php
-    Echo "<table>
-    <tr>
-      <th></th>
-      <th></th>
-    </tr>
-    
-    <tr>
-    <th>1 </th>
-    <th>2 </th>
-    </tr>
-   
-    <tr>
-    <td></td>
-      <td></td>
-      </tr>
-  </table>"
+  //creates the table 
+    echo "<table>"; 
+    for ($rows = 1; $rows<=100;$rows++) //start at 1 so you don't have a row of zeros
+    {
+      echo('<tr>'); //creates a new row at the beginning of each outer for-loop
+      for($columns=1; $columns<=100;$columns++)
+      {
+        echo('<td>'.$rows*$columns.'<td>'); //creates a new data cell in the table which has the multiplication value
+      }
+      echo('</tr>');//this closes the row at the end of the outer for-loop
+    }
+  echo "</table>"//ends the table 
     ?>
   
 
