@@ -13,7 +13,7 @@
   <p>Multiplication Table for 100x100</p>
   <?php
   //creates the table 
-    echo "<table>"; 
+    echo("<table>"); 
     for ($rows = 1; $rows<=100;$rows++) //start at 1 so you don't have a row of zeros
     {
       echo('<tr>'); //creates a new row at the beginning of each outer for-loop
@@ -23,7 +23,7 @@
       }
       echo('</tr>');//this closes the row at the end of the outer for-loop
     }
-  echo "</table>"//ends the table 
+  echo("</table>")//ends the table 
     ?>
   
 
