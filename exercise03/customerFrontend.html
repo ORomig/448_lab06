@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Shopping Time!</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  <script src="formChecker.js"></script> 
+  <h1 class="center">Plant Party!</h1>
+  <h2 class="center">Welcome to my store! <br> Currently Available Items</h2>
+  <h3></h3>
+  <div class="center" id="pics">
+    <div id="firstPics" class="row"> 
+      <div class="col">
+          <img src="aloe3.jpeg" id="pic1"> 
+          <label for="pic1"><br>Aloe Plant<br>$5.55</label>
+      </div>
+      <div class="col">
+          <img src="cyclamen.jpeg" id="pic2"> 
+          <label for="pic2">Cyclamen<br>$12.49</label>
+      </div>
+      <div class="col">
+          <img src="fittonia.jpeg" id="pic3"> 
+          <label for="pic3"><br>Fittonia Nerve Plant<br> $8.99</label>
+        
+      </div>
+  </div>
+  </div>
+  <form action="customerBackend.php" method="post" onsubmit="return checkForm()">
+    <h1 class="more">Order Form! </h1>
+      <div id="form"> 
+      Name: <input type="text" name="name"><br>
+      Username (in the form name@domain.com): <input type="email" name="email"><br>
+      Password: <input type="password" name="password"><br>
+      <h1 class="more">Shopping Cart:<br></h1>
+      <label for="aloe">Aloe Quantity:</label>
+      <input type="number" id="aloe" name="aloe" min="0"> <br>
+      <label for="cyclamen">Cyclamen Quantity:</label>
+      <input type="number" id="cyclamen" name="cyclamen" min="0"> <br>
+      <label for="fittonia">Fittonia Quantity:</label>
+      <input type="number" id="fittonia" name="fittonia" min="0"> <br>
+      <h1 class="more">Shipping Choices: <br></h1>
+      <input type="radio" name="ship" value="free">Free 7-day shipping <br>
+      <input type="radio" name="ship" value="threeDay">$5.00 3-day shipping <br>
+      <input type="radio" name="ship" value="overNight">$50.00 overnight shipping <br>
+      <input type="reset">
+      <input type="submit" value="Submit Order">
+      </div> 
+    </h2>
+  </form>
+
+</body>
+</html>
