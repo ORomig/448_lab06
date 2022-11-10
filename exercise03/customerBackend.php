@@ -11,3 +11,4 @@
 <body>
   <h1>Plant Party!</h1>
   <h2>Receipt</h2>
+  

@@ -8,7 +8,6 @@ function checkForm(){
     }
 };
 
-
 function isOneEmpty() {
     var name = document.forms["order"]["name"];
     var email = document.forms["order"]["email"];
