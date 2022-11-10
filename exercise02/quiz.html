@@ -4,12 +4,63 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Multiplication Table!</title>
+  <title>POP Quiz!</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <h1>Multiplication Table!</h1>
-  <p>Multiplication Table for 100x100</p>
+  <h1>Are you ready for a bunch of RANDOM questions?<br>RANDOM QUIZ TIME! </h1>
+  <form action="quiz.php" method="post">
+    <h2>Question 1: 
+      <h3>A group of Owls is called what?</h3>
+      <div id="question1"> 
+      <input type="radio" name="q1" value="answer1">a) Troop <br>
+      <input type="radio" name="q1" value="answer2">b) Parliament <br>
+      <input type="radio" name="q1" value="answer3">c) Colony <br>
+      <input type="radio" name="q1" value="answer4">d) Company <br>
+      </div> 
+    </h2>
+    <h2>Question 2: 
+      <h3>If I had to be one of the 9 Titans from Attack on Titan which one would I pick? </h3>
+      <div id="question2"> 
+      <input type="radio" name="q2" value="answer1">a) the COLOSSAL Titan<br>
+      <input type="radio" name="q2" value="answer2">b) the BEAST Titan <br>
+      <input type="radio" name="q2" value="answer3">c) the WAR HAMMER Titan<br>
+      <input type="radio" name="q2" value="answer4">d) the ATTACK Titan<br>
+      </div> 
+    </h2>
+    <h2>Question 3: 
+      <h3>In Hunter x Hunter if impurities appear in the water during the water divination,<br> 
+      what Nen type will the user have? </h3>
+      <div id="question3"> 
+      <input type="radio" name="q3" value="answer1">a) a Conjurer <br>
+      <input type="radio" name="q3" value="answer2">b) an Enhancer <br>
+      <input type="radio" name="q3" value="answer3">c) a Manipulator<br>
+      <input type="radio" name="q3" value="answer4">d) an Emitter<br>
+      </div> 
+    </h2>
+    <h2>Question 4: 
+      <h3>In Taylor Swift's new album Midnights, which song has the lyric: <br>
+      "I'm only cryptic and Machiavellian 'cause I care"? </h3>
+      <div id="question4"> 
+      <input type="radio" name="q4" value="answer1">a) Maroon<br>
+      <input type="radio" name="q4" value="answer2">b) Mastermind <br>
+      <input type="radio" name="q4" value="answer3">c) Lavender Haze<br>
+      <input type="radio" name="q4" value="answer4">d) Anti-Hero<br>
+      </div> 
+    </h2>
+    <h2>Question 5: 
+      <h3>Skobeloff is what kind of color? </h3>
+      <div id="question5"> 
+      <input type="radio" name="q5" value="answer1">a) A chocolate brown<br>
+      <input type="radio" name="q5" value="answer2">b) A redish orange<br>
+      <input type="radio" name="q5" value="answer3">c) A blueish green<br>
+      <input type="radio" name="q5" value="answer4">d) A dark green<br>
+      </div> 
+    </h2>
+    <br>
+    <button id="submit">Sumbit Quiz</button>
+  </form>
+
   </body>
   </html>
