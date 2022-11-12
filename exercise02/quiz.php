@@ -121,9 +121,9 @@
   ?>
   <h2>
   <?php 
-  echo "You got ".$totalCorrect." questions correct."."<br>";
+  echo ("You got ".$totalCorrect." questions correct."."<br>");
   $percent = $totalCorrect/5*100;
-  echo "That means you got a ".$percent."%"."<br>";
+  echo ("That means you got a ".$percent."%"."<br>");
   ?>
   <br>
   <br> 

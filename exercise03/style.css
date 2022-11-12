@@ -43,3 +43,10 @@ label{
     color:rgb(154, 201, 154);  
     font-size: 25px;
 }
+.pass{
+    color: rgb(154, 201, 154);
+    font-family: fantasy;
+  }
+table, th, td {
+    border:1px solid black;
+}

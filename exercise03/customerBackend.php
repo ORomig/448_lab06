@@ -10,5 +10,9 @@
 
 <body>
   <h1>Plant Party!</h1>
-  <h2>Receipt</h2>
-  
+  <h2>Your Purchase was SUCCESSFUL!</h2>
+  <?php
+  echo ("<h2>"."The password you entered is: " .$_POST["password"]."</h2>");
+  ?>
+
+
