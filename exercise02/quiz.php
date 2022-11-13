@@ -104,7 +104,7 @@
     <?php 
     if($_POST["q5"]=="answer1"){
       echo "Your answer: a) A chocolate brown "."<br>";
-      echo "Correct answer: c) A blueish greenbr>";
+      echo "Correct answer: c) A blueish green"."<br>";
     }
     if($_POST["q5"]=="answer2"){
       echo "Your answer: c) A redish orange"."<br>";
